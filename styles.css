@@ -1,0 +1,171 @@
+html {
+    scroll-behavior: smooth;
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+/* Main content styling */
+main {
+    margin: 20px 0;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 100px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+    
+}
+section h1 {
+    font-size: 4em;
+    margin-bottom: 10px;
+    color: #ff6f61;
+    
+}
+section h2 {
+    font-size: 2.3em;
+    margin-bottom: 10px;
+    color: #ff6f61;
+}
+
+section p {
+    font-size: 1.5em;
+    line-height: 1.8;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 0.9em;
+}
+/* Định dạng bảng */
+.styled-table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Định dạng tiêu đề bảng */
+.styled-table thead {
+    background-color: rgba(0, 0, 0, 0.796);
+    color: #ffffff;
+}
+
+/* Định dạng ô tiêu đề */
+.styled-table th, .styled-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+/* Màu nền xen kẽ cho các hàng */
+.styled-table tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+/* Hiệu ứng khi hover vào hàng */
+.styled-table tbody tr:hover {
+    background-color: #ff6f61;
+    color: #f0f0f0;
+    font-weight: bold ;
+    cursor: pointer;
+}
+.video-style {
+    display: block;
+    width: 70%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.796);
+}    
+    .image-style {
+        display: inline-block;
+        width: 30%;
+        margin: 10px;
+        height: auto;
+        
+}
+.toc {
+    position: center;
+    top: 20px;
+    left: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 8px 12px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    width: 500px;
+  }
+  
+  .toc h3 {
+    margin-top: 0;
+    font-size: 2em;
+    color: #ff6f61;
+  }
+  
+  .toc ul {
+    list-style-type: none;
+    padding: 75px;
+  }
+  
+  .toc ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  .toc ul li a:hover {
+    color: #ff6f61;
+    text-decoration: underline;
+  }
+  @keyframes tada {
+    0% { transform: scale(1); }
+    10%, 20% { transform: scale(0.9) rotate(-3deg); }
+    30%, 50%, 70%, 90% { transform: scale(1.1) rotate(3deg); }
+    40%, 60%, 80% { transform: scale(1.1) rotate(-3deg); }
+    100% { transform: scale(1) rotate(0); }
+  }
+
+  .tada-text {
+    display: inline-block;
+    font-size: 48px;
+    font-weight: bold;
+    color: #ff6f61;
+    animation: tada 2s ease-in-out infinite;
+  }
+ 
